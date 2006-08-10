@@ -6,7 +6,7 @@ use base qw( Exporter );
 use List::Util;
 use List::MoreUtils qw( uniq );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our @EXPORT_OK = qw( tally );
 
@@ -138,5 +138,18 @@ sub tally {
         return \%tally;
     }
 }
+
+=head1 AUTHOR
+
+Adam Paynter E<lt>adapay@cpan.orgE<gt>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2006 by Adam Paynter
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
+=cut
 
 1;
